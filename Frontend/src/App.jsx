@@ -14,7 +14,7 @@ export default function App() {
     setError("");
 
     try {
-      const res = await fetch("http://localhost:8000/tailor", {
+      const res = await fetch("https://your-render-url.onrender.com/tailor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ job_description: jd }),
@@ -33,7 +33,7 @@ export default function App() {
   };
 
   const handleDownload = () => {
-    window.open("http://localhost:8000/download", "_blank");
+    window.open("https://your-render-url.onrender.com/download", "_blank");
   };
 
   return (
