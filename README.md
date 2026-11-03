@@ -2,6 +2,10 @@
 
 An AI-powered resume tailoring tool that automatically selects the most relevant GitHub projects for any job description and generates a tailored LaTeX resume.
 
+[![Resume Tailor Agent Demo](https://img.youtube.com/vi/oLvcVvBSzWM/0.jpg)](https://youtu.be/oLvcVvBSzWM)
+
+🔗 **Live:** https://resume-tailor-agent-cyan.vercel.app
+
 ## How It Works
 
 1. Paste a job description into the UI
@@ -73,3 +77,13 @@ Open `http://localhost:5173`
 |--------|----------|-------------|
 | POST | `/tailor` | Generate tailored resume from JD |
 | GET | `/download` | Download the generated `.tex` file |
+
+## Screenshots
+
+<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/d4e038c5-6dac-4191-a293-423544373548" />
+
+<img width="1522" height="837" alt="image" src="https://github.com/user-attachments/assets/b6e27730-0454-437f-ad25-4532bf18bc47" />
+
+<img width="1812" height="847" alt="image" src="https://github.com/user-attachments/assets/a061891f-7565-4ff0-8bd8-3cec8174956e" />
+
+
