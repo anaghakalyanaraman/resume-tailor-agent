@@ -1,0 +1,48 @@
+{
+  "name": "Anagha Kalyanaraman",
+  "email": "anaghakalyanaraman@gmail.com",
+  "phone": "+1 (XXX) XXX-XXXX",
+  "linkedin": "linkedin.com/in/anaghakalyanaraman",
+  "github": "github.com/anaghakalyanaraman",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "school": "The Ohio State University",
+      "gpa": "3.6/4.0",
+      "date": "Aug 2025 -- May 2027"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "Anurag University",
+      "gpa": "9.05/10",
+      "date": "Aug 2020 -- May 2024"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Associate Software Engineer",
+      "company": "Accenture",
+      "date": "Jul 2024 -- Jul 2025",
+      "bullets": [
+        "Built production RAG system using AWS Bedrock, reducing document retrieval time by 40%",
+        "Cleaned and processed unstructured data using Python and Pandas for LLM pipelines",
+        "Developed ETL pipelines on AWS Lambda, S3, and EC2, reducing processing time by 50%"
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Cloud4C",
+      "date": "Jan 2024 -- Jun 2024",
+      "bullets": [
+        "Automated monitoring and observability pipelines using Zabbix and SAP, reducing manual effort by 70%"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "JavaScript", "SQL"],
+    "frameworks": ["FastAPI", "Flask", "React.js", "REST APIs", "WebSockets", "JWT"],
+    "cloud_devops": ["AWS", "Docker", "Docker Compose", "CI/CD", "Git", "Linux", "GitHub Actions"],
+    "databases": ["PostgreSQL", "SQLAlchemy", "Redis", "Alembic", "MongoDB", "pgvector"],
+    "ai_ml": ["PyTorch", "scikit-learn", "LangChain", "LangGraph", "RAG", "LLM", "Vector Databases", "RAGAS", "Groq"]
+  }
+}
