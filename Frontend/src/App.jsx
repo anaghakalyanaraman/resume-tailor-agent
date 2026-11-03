@@ -14,7 +14,7 @@ export default function App() {
     setError("");
 
     try {
-      const res = await fetch("https://your-render-url.onrender.com/tailor", {
+      const res = await fetch("https://resume-tailor-agent-fxjm.onrender.com/tailor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ job_description: jd }),
@@ -33,7 +33,7 @@ export default function App() {
   };
 
   const handleDownload = () => {
-    window.open("https://your-render-url.onrender.com/download", "_blank");
+    window.open("https://resume-tailor-agent-fxjm.onrender.com/download", "_blank");
   };
 
   return (
